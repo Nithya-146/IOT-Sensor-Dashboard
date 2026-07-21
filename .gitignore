@@ -1,0 +1,16 @@
+# Compiled Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Database & Services Binaries
+services/
+services/influxdb/data/
+
+# IDE files
+.vscode/
+.idea/
+.venv/
+env/
+venv/
