@@ -15,7 +15,7 @@ A premium, real-time IoT Telemetry Analytics dashboard styled with a dark glassm
 
 ```mermaid
 graph LR
-    subgraph Sensors (Simulator)
+    subgraph Sensors ["Sensors (Simulator)"]
         T[Temp Sensor] -->|Publish| MQTT
         H[Hum Sensor] -->|Publish| MQTT
         P[Pres Sensor] -->|Publish| MQTT
